@@ -48,7 +48,7 @@ public class VistaLogistica extends JFrame {
         setLocationRelativeTo(null);
     }
 
-    // ---- Datos del formulario ----
+    //        Datos del formulario 
     public String getCodigo()    { return txtCodigo.getText().trim(); }
     public String getCliente()   { return txtCliente.getText().trim(); }
     public String getPesoTexto() { return txtPeso.getText().trim(); }
@@ -81,7 +81,7 @@ public class VistaLogistica extends JFrame {
         JOptionPane.showMessageDialog(this, mensaje);
     }
 
-    // ---- Listeners ----
+    //             Listeners 
     public void onAgregar(ActionListener l)  { btnAgregar.addActionListener(l); }
     public void onRetirar(ActionListener l)  { btnRetirar.addActionListener(l); }
     public void onGuardar(ActionListener l)  { btnGuardar.addActionListener(l); }
