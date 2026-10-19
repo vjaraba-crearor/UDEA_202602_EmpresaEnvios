@@ -1,5 +1,6 @@
 package factory;
+import modelo.Envio;
 
-public class EnvioFactory {
-
+public abstract class EnvioFactory {
+    public abstract Envio crearEnvio(String codigo, String cliente, double peso, double distancia);
 }
